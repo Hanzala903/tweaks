@@ -24,7 +24,7 @@ python -m venv "$installDir\venv"
 
 Write-Host "[3/3] Mengunduh Aplikasi..." -ForegroundColor Yellow
 # GANTI URL INI DENGAN URL RAW GITHUB LO
-$rawUrl = "https://raw.githubusercontent.com/USERNAME/Tweak-Pencinta-Hanzala/main/cleaner.py"
+$rawUrl = "https://raw.githubusercontent.com/Hanzala903/tweaks/refs/heads/main/cleaner.py"
 Invoke-WebRequest -Uri $rawUrl -OutFile "$installDir\cleaner.py"
 
 Write-Host "Membuat shortcut di Desktop..." -ForegroundColor Yellow
